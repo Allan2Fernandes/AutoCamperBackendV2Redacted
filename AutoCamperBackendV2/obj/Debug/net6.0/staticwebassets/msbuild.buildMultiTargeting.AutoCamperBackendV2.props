@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AutoCamperBackendV2.props" />
+</Project>

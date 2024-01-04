@@ -1,0 +1,14 @@
+version: "3"
+services:
+   API:
+    image: autocamperbackend
+    networks:
+        - wheel
+    ports:
+        - '5001:80'
+    environment:
+        - PORT=80
+    
+networks:
+    wheel: 
+        driver: bridge
